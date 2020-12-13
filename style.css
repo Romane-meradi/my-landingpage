@@ -1,0 +1,364 @@
+body {
+	width: 100%;
+	margin: 0px auto;
+	background-color: #faf1ea;
+	}
+
+#banner1 {
+	display: block;
+	background-color: #ed9357;
+	height: 151px;
+	width: 100%;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	border: 0px solid black;
+	box-shadow: 0px 10px 30px rgba(0,0,0,1);
+}
+#menu {
+	min-width: 500px;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	background-color: #faf1ea;
+}
+
+
+#menu ul {
+	float: left;
+	left: 50%;
+	position: relative;
+	padding-top: 15px;
+	margin-left: -60px;
+
+}
+
+#menu ul li {
+	margin-left: 70px;
+	float: left;
+	list-style-type: none;
+	position: relative;
+	left: -50%;
+}
+
+#menu ul li a {
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	background-color: #faf1ea;
+	height: 30px;
+	width: 100px;
+	color: black;
+	text-decoration: none;
+	border-radius: 10px;
+
+}
+
+#menu ul li a:hover {
+	color: white;
+	background-color: #ed9357;
+}
+
+#banner2 {
+	display: block;
+	background-color:#faf1ea;
+	height: 17px;
+	width: 100%;
+	color: #ed9357;
+}
+#id1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	letter-spacing: 13px;
+}
+
+#banner3 {
+	text-align: center;
+	font-size: 90px;
+	font-family: 'Sansita Swashed', cursive;
+	letter-spacing: 30px;
+	background-color: #faf1ea;
+	color: #ed9357;
+}
+#banner4 {
+	display: block;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 24px;
+	background-color: #faf1ea;
+	height: 10px;
+	width: 100%;
+}
+#contenuprincipal {
+	display: block;
+	width: 90%;
+	margin: auto;
+}
+
+.d1{
+    width: 576px;
+    height: 380px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu 15s ease-in-out infinite both;
+}
+.conteneur{
+    max-width: 576px;
+    margin: 50px auto;
+}
+
+.d1:hover {
+    animation-play-state: paused;
+}
+
+@keyframes fondu{
+    0%{background-image: url("https://www.senioractu.com/photo/art/grande/8376279-13133713.jpg?v=1444613925");}
+    33.33%{background-image: url("https://i.pinimg.com/originals/8b/8b/f3/8b8bf387774e376a10201f61600af079.jpg");}
+    66.67%{background-image: url("https://www.senioractu.com/photo/art/grande/50324472-38871964.jpg?v=1601830361");}
+    100%{background-image: url("https://www.senioractu.com/photo/art/grande/40114412-34230704.jpg?v=1574868299");}
+}
+
+#banner5 {
+	display: block;
+	background-color: rgba(0,0,0,0.1);
+	height: 540px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 24px;
+}
+#banner5 p {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	padding: 29px;
+	margin: 5px auto;
+	font-family: 'Satisfy', cursive;
+	font-size: 35px;
+	letter-spacing: 5px;
+}
+.coeur {
+	height: 200px;
+	width: 300px;
+	border-radius: 10px;
+}
+
+#cadre {
+	border: 3px solid black;
+}
+
+.btn-fav {
+	background-color: black;
+	color: #faf1ea;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-fav:hover {
+	background-color: white;
+	color: #ed9357;
+}
+
+.espace p{
+	margin-bottom: 40px;
+}
+
+#banner6 {
+	text-align: center;
+	height: 590px;
+	width: 100%;
+	font-size: 20px;
+	color: black;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 24px;
+}
+
+h4 {
+	text-align: center;
+	padding: 29px;
+	margin: 5px auto;
+	font-family: 'Satisfy', cursive;
+	font-size: 41px;
+	letter-spacing: 5px;
+	color: #ed9357;
+}
+
+.produits {
+  	width: 200px;
+  	height: 180px;
+  	background-color: cornflowerblue;
+  	margin:60px;
+  	border-radius: 10px;
+  	display: inline-block;
+  	cursor: pointer;
+  	transition: transform 0.5s;
+}
+
+.produits:hover {
+	transform: translateY(-10px);
+}
+#cadre1 {
+	border: 2px solid black;
+}
+
+#banner6 p {
+	text-align: center;
+}
+
+.btn-cat {
+	background-color: #ed9357;
+	color: #faf1ea;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-cat:hover {
+	background-color: white;
+	color: #ed9357;
+}
+
+.espace p{
+	margin-bottom: 40px;
+}
+
+#banner7 {
+	display: block;
+	background-color: #ed9357;
+	height: 510px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 24px;
+}
+
+.espace p{
+	margin-bottom: 40px;
+}
+
+#banner7 p {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	padding: 29px;
+	margin: 5px auto;
+	font-family: 'Satisfy', cursive;
+	font-size: 31px;
+	letter-spacing: 5px;
+}
+.temoignage {
+	height: 200px;
+	width: 300px;
+	border-radius: 10px;
+}
+
+#cadre {
+	border: 2px solid black;
+}
+.btn {
+	background-color: black;
+	color: #faf1ea;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn:hover {
+	background-color: #faf1ea;
+	color: #ed9357;
+}
+
+.espace p{
+	margin-bottom: 40px;
+}
+
+#banner8 {
+	text-align: center;
+	height: 500px;
+	width: 100%;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Satisfy', cursive;
+	font-size: 31px;
+	letter-spacing: 5px;
+}
+
+.img-team {
+  	width: 150px;
+  	height: 150px;
+  	background-color: cornflowerblue;
+  	margin:60px;
+  	display: inline-block;
+  	cursor: pointer;
+  	transition: transform 0.5s;
+}
+
+.img-team:hover {
+	transform: translateY(-10px);
+}
+
+#banner8 p {
+	text-align: center;
+}
+
+#footer {
+	display: block;
+	background-color: #ed9357;
+	height: 100px;
+	width: 100%;
+}
+
+.icons {
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+	padding: 30px;
+}
+
+.icons li{
+	display: inline;
+	padding: 10px;
+}
+.icons i{
+	font-size: 50px;
+	color:#faf1ea;
+}
+
+.icons i:hover {
+	color: black;
+}
+
+@media (max-width: 960px) {
+    .container {
+	  width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		background-color: #fff3e2;
+		width: 500px;
+	}
+}
+
+@media (max-width: 200px) {
+	.container {
+		background: #fff3e2;
+		width: 50px;
+	}
+}
+
+
